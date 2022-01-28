@@ -8,7 +8,6 @@ alias tkill="tmux kill-session -t"
 alias tclean="tmux kill-server"
 
 # ls
-alias ls="ls -a"
 alias ll="ls -latr"
 alias l="ll"
 alias bb="exit"
