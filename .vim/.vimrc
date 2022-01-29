@@ -1,6 +1,12 @@
 " Pathogen Installation
 call pathogen#infect()
 
+" Remap leader
+" US LAYOUT:
+" let mapleader = "`"
+" ITA LAYOUT:
+let mapleader = "\\" 
+
 " Font change
 set guifont=JetBrainsMonoNerdFontComplete-Italic:h14
 
@@ -37,7 +43,6 @@ hi Normal guibg=NONE ctermbg=NONE
 map s <Nop>
 " hi Normal ctermbg=NONE guibg=NONE
 " quit
-map <silent> <C-q> :q<CR>
 
 " Gitline hightlight
 map <silent> <C-g> :GitGutterLineHighlightsToggle<CR>
@@ -67,10 +72,11 @@ nmap <Tab> :tabnext<Return>
 map <silent> <C-s> :Ex<CR>
 
 " NERDTree shortcuts
-map <silent> <C-n> :NERDTreeTabsToggle<CR>
+map <silent> <C-n> :NERDTreeToggle<CR>
 map  <C-l> :tabn<CR>
 map  <C-h> :tabp<CR>
 map te :tabnew<CR>
+nmap tt :tabclose<CR>
 " map  <C-t> :tabnew<CR>
 " make-nerdtree-always-open-on-the-right-side
 let g:NERDTreeWinPos = "right"
@@ -186,8 +192,6 @@ noremap <Right> <NOP>
 
 
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
-" Remap leader
-let mapleader = "`"
 
 " Jump to anywhere you want with minimal keystrokes, with just one key binding.
 " `s{char}{label}`
