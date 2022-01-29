@@ -10,10 +10,6 @@
 	path = .vim/bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
 	branch = master
-[submodule ".vim/bundle/coc.nvim"]
-	path = .vim/bundle/coc.nvim
-	url = https://github.com/neoclide/coc.nvim
-	branch = master
 [submodule ".vim/bundle/nerdcommenter"]
 	path = .vim/bundle/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter
