@@ -28,6 +28,8 @@ git submodule init
 git submodule update
 ```
 **Setup VIM**
+
+
 Edit .vim/.vimrc and set [mapLeader](https://github.com/carmeloriolo/.dotfiles/blob/master/.vim/.vimrc#L4) based on keyboard layout.
 
 **Create symbolic links**
