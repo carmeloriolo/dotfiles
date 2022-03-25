@@ -1,6 +1,6 @@
 # Tmux alias
 
-alias tnew="tmux new -s" 
+alias tnew="$HOME/.dotfiles/.scripts/tmuxwrap.sh"
 alias tn="tnew `hostname`"
 alias tres="tmux attach-session -t"
 alias tlist="tmux ls"
