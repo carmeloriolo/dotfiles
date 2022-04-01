@@ -29,6 +29,7 @@ alias vg-reload="vg-down && vg-up"
 
 # Mac OSX
 alias code="open -a /Applications/Visual\ Studio\ Code.app"
+alias sublime="open -a /Applications/Sublime\ Text.app"
 alias gvim="open -a /Applications/MacVim.app"
 alias tunn-start="open -a /Applications/Tunnelblick.app"
 alias tunn-kill="~/.dotfiles/.scripts/tunn-kill.sh" 
