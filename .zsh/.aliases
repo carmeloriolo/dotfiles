@@ -36,6 +36,7 @@ alias tunn-kill="~/.dotfiles/.scripts/tunn-kill.sh"
 alias tunn-stats="watch tunnelblickctl status"
 alias ts="tunn-stats"
 alias kl="sudo keeper login"
+alias dev="cd ~/Dev"
 
 # ZSH
 alias alias-edit="vim ~/.zsh/.aliases"

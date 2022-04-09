@@ -14,7 +14,6 @@ export TERM=xterm-256color
 export GO111MODULE=on
 # Path to your oh-my-zsh installation.
 export GOFLAGS=-mod=vendor
-
 export ZSH="$HOME/.oh-my-zsh"
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon virtualenv root_indicator dir background_jobs)
@@ -30,7 +29,6 @@ source $ZSH/oh-my-zsh.sh
 
 plugins=(git)
 
-PATH="$PATH:$HOME/Subito/Dev/workspace/subito-envs/bin:$GOPATH/bin:$GOPATH/utils:/Users/carmelo.riolo/Personal/Dev/go/bin"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -46,3 +44,5 @@ source ~/.zsh/.aliases
 source ~/.zsh/.zshenv
 [[ -f ~/.zsh/.zshenv.subito ]] && source ~/.zsh/.zshenv.subito
 
+export PATH="/usr/local/opt/python@3.10/bin:$PATH"
+PATH="$PATH:$HOME/Subito/Dev/workspace/subito-envs/bin:/usr/local/go/bin:/usr/local/opt/python@3.10/"
