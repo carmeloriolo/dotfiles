@@ -12,8 +12,10 @@ export CLICOLOR=1
 export TERM=xterm-256color
 
 export GO111MODULE=on
+# export GOFLAGS=-mod=vendor
+export GOPATH=$HOME/Dev/go
+
 # Path to your oh-my-zsh installation.
-export GOFLAGS=-mod=vendor
 export ZSH="$HOME/.oh-my-zsh"
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon virtualenv root_indicator dir background_jobs)
@@ -45,4 +47,4 @@ source ~/.zsh/.zshenv
 [[ -f ~/.zsh/.zshenv.subito ]] && source ~/.zsh/.zshenv.subito
 
 export PATH="/usr/local/opt/python@3.10/bin:$PATH"
-PATH="$PATH:$HOME/Subito/Dev/workspace/subito-envs/bin:/usr/local/go/bin:/usr/local/opt/python@3.10/"
+PATH="$PATH:$HOME/Subito/Dev/workspace/subito-envs/bin:/usr/local/go/bin:/usr/local/opt/python@3.10/:$GOPATH/bin"
