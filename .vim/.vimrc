@@ -8,7 +8,7 @@ call pathogen#infect()
 let mapleader = "\\" 
 
 " Font change
-set guifont=JetBrainsMonoNerdFontComplete-Italic:h14
+set guifont="Hack Nerd Font:h14"
 
 " Enable CtrlP
 " set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -221,3 +221,30 @@ autocmd InsertEnter * highlight CursorLine guibg=#000050 guifg=fg
 autocmd InsertLeave * highlight CursorLine guibg=#004000 guifg=fg
 let g:jedi#environment_path = "/usr/local/bin/python3"
 
+" Golang stuff from here
+filetype plugin indent on
+
+set autowrite
+
+" Go syntax highlighting
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_operators = 1
+
+" Auto formatting and importing
+let g:go_fmt_autosave = 1
+let g:go_fmt_command = "goimports"
+
+" Status line types/signatures
+let g:go_auto_type_info = 1
+
+" New line on {} if <cr> is found
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+" utf8 for devicons
+set encoding=UTF-8
+
+" transparent popup window for coc suggestions 
+hi Normal guibg=NONE ctermbg=NONE
