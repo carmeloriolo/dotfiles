@@ -1,36 +1,36 @@
-[submodule ".vim/bundle/vim-airline"]
-	path = .vim/bundle/vim-airline
+[submodule "nvim/bundle/vim-airline"]
+	path = nvim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 	branch = master
-[submodule ".vim/bundle/vim-easymotion"]
-	path = .vim/bundle/vim-easymotion
+[submodule "nvim/bundle/vim-easymotion"]
+	path = nvim/bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
 	branch = master
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
+[submodule "nvim/bundle/nerdtree"]
+	path = nvim/bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
 	branch = master
-[submodule ".vim/bundle/nerdcommenter"]
-	path = .vim/bundle/nerdcommenter
+[submodule "nvim/bundle/nerdcommenter"]
+	path = nvim/bundle/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter
 	branch = master
-[submodule ".vim/bundle/fzf.vim"]
-	path = .vim/bundle/fzf.vim
+[submodule "nvim/bundle/fzf.vim"]
+	path = nvim/bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
 	branch = master
-[submodule ".vim/bundle/fzf"]
-	path = .vim/bundle/fzf
+[submodule "nvim/bundle/fzf"]
+	path = nvim/bundle/fzf
 	url = https://github.com/junegunn/fzf
 	branch = master
-[submodule ".vim/bundle/vim-go"]
-	path = .vim/bundle/vim-go
+[submodule "nvim/bundle/vim-go"]
+	path = nvim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
-[submodule ".vim/bundle/coc.nvim"]
-	path = .vim/bundle/coc.nvim
+[submodule "nvim/bundle/coc.nvim"]
+	path = nvim/bundle/coc.nvim
 	url = https://github.com/neoclide/coc.nvim
-[submodule ".vim/bundle/vim-devicons"]
-	path = .vim/bundle/vim-devicons
+[submodule "nvim/bundle/vim-devicons"]
+	path = nvim/bundle/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons
-[submodule ".vim/bundle/vim-tmux-navigator"]
-	path = .vim/bundle/vim-tmux-navigator
+[submodule "nvim/bundle/vim-tmux-navigator"]
+	path = nvim/bundle/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator

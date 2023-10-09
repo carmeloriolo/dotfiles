@@ -3,18 +3,18 @@ call pathogen#infect()
 
 " Remap leader
 " US LAYOUT:
-" let mapleader = "`"
+let mapleader = "`"
 " ITA LAYOUT:
-let mapleader = "\\" 
+" let mapleader = "\\" 
 
 " Font change
-set guifont="Hack Nerd Font:h14"
+" set guifont=JetBrainsMonoNerdFontComplete-Italic:h21
 
 " Enable CtrlP
 " set runtimepath^=~/.vim/bundle/ctrlp.vim
 nnoremap <silent> <C-p> :Files<CR>
 
-set termguicolors
+" set termguicolors
 filetype plugin on
 syntax on
 set number
@@ -36,7 +36,9 @@ let g:airline#extensions#tabline#show_tab_nr = 0       " disable tab numbers
 let g:airline#extensions#tabline#show_tab_type = 0     " disables the weird ornage arrow on the tabline
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
-colorscheme torte
+" colorscheme torte
+" colorscheme gruvbox
+colorscheme habamax
 " Transparent background 
 hi Normal guibg=NONE ctermbg=NONE
 
@@ -207,10 +209,10 @@ let g:EasyMotion_smartcase = 1
 " JK motions: Line motions
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
-set termguicolors
+" set termguicolors
 
 " show a visual line under the cursor's current line
-set cursorline
+" set cursorline
 
 " show the matching part of the pair for [] {} and ()
 set showmatch
@@ -221,30 +223,3 @@ autocmd InsertEnter * highlight CursorLine guibg=#000050 guifg=fg
 autocmd InsertLeave * highlight CursorLine guibg=#004000 guifg=fg
 let g:jedi#environment_path = "/usr/local/bin/python3"
 
-" Golang stuff from here
-filetype plugin indent on
-
-set autowrite
-
-" Go syntax highlighting
-let g:go_highlight_fields = 1
-let g:go_highlight_functions = 1
-let g:go_highlight_function_calls = 1
-let g:go_highlight_extra_types = 1
-let g:go_highlight_operators = 1
-
-" Auto formatting and importing
-let g:go_fmt_autosave = 1
-let g:go_fmt_command = "goimports"
-
-" Status line types/signatures
-let g:go_auto_type_info = 1
-
-" New line on {} if <cr> is found
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
-" utf8 for devicons
-set encoding=UTF-8
-
-" transparent popup window for coc suggestions 
-hi Normal guibg=NONE ctermbg=NONE
