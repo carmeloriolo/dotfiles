@@ -1,0 +1,16 @@
+# ls
+alias ll="ls -latr"
+
+# fzf
+alias ff="fzf"
+
+# git
+alias gcb="git checkout -b"
+alias gs="git status"
+alias gc="git cz"
+
+# docker
+alias dps="docker ps --format \"🐳 [{{.ID}}{{.Image}}]{{.Names}} ⚡{{.Ports}}\""
+
+# k8s
+alias k="kubectl"
