@@ -34,3 +34,6 @@
 [submodule "nvim/bundle/vim-tmux-navigator"]
 	path = nvim/bundle/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "kitty/kitty-themes"]
+	path = kitty/kitty-themes
+	url = git@github.com:dexpota/kitty-themes.git
