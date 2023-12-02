@@ -1,7 +1,7 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
-local ok, _ = pcall(vim.cmd, "colorscheme tokyonight-night")
+local ok, _ = pcall(vim.cmd, "colorscheme habamax")
 if not ok then
 	vim.cmd("colorscheme default") -- if the above fails, then use default
 end
