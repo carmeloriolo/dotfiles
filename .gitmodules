@@ -1,38 +1,38 @@
-[submodule "nvim/bundle/vim-airline"]
-	path = nvim/bundle/vim-airline
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 	branch = master
-[submodule "nvim/bundle/vim-easymotion"]
-	path = nvim/bundle/vim-easymotion
+[submodule "vim/bundle/vim-easymotion"]
+	path = vim/bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
 	branch = master
-[submodule "nvim/bundle/nerdtree"]
-	path = nvim/bundle/nerdtree
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
 	branch = master
-[submodule "nvim/bundle/nerdcommenter"]
-	path = nvim/bundle/nerdcommenter
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter
 	branch = master
-[submodule "nvim/bundle/fzf.vim"]
-	path = nvim/bundle/fzf.vim
+[submodule "vim/bundle/fzf.vim"]
+	path = vim/bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
 	branch = master
-[submodule "nvim/bundle/fzf"]
-	path = nvim/bundle/fzf
+[submodule "vim/bundle/fzf"]
+	path = vim/bundle/fzf
 	url = https://github.com/junegunn/fzf
 	branch = master
-[submodule "nvim/bundle/vim-go"]
-	path = nvim/bundle/vim-go
+[submodule "vim/bundle/vim-go"]
+	path = vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
-[submodule "nvim/bundle/coc.nvim"]
-	path = nvim/bundle/coc.nvim
-	url = https://github.com/neoclide/coc.nvim
-[submodule "nvim/bundle/vim-devicons"]
-	path = nvim/bundle/vim-devicons
+[submodule "vim/bundle/coc.vim"]
+	path = vim/bundle/coc.vim
+	url = https://github.com/neoclide/coc.vim
+[submodule "vim/bundle/vim-devicons"]
+	path = vim/bundle/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons
-[submodule "nvim/bundle/vim-tmux-navigator"]
-	path = nvim/bundle/vim-tmux-navigator
+[submodule "vim/bundle/vim-tmux-navigator"]
+	path = vim/bundle/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
 [submodule "kitty/kitty-themes"]
 	path = kitty/kitty-themes
