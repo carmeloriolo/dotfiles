@@ -2,5 +2,5 @@
 
 ## Setup
 ```
-git clone --recurse-submodules git@github.com:carmeloriolo/.dotfiles.git
+git clone --recurse-submodules git@github.com:serverabuse/dotfiles.git
 ```
